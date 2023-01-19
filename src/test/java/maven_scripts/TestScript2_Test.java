@@ -7,14 +7,14 @@ public class TestScript2_Test {
 	@Test(groups = "smoke")
 	public void script3_test()
 	{
-		System.out.println("Script - 3");
+		System.out.println("smoke Test Script - 3");
 	}
 
 	
 	@Test(groups = "regression")
 	public void script4_test()
 	{
-		System.out.println("Script - 4");
+		System.out.println("regression Test Script - 4");
 	}
 
 }
