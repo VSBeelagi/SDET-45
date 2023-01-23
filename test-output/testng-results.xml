@@ -1,17 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38" started-at="2023-01-18T11:17:20 IST" finished-at="2023-01-18T11:17:20 IST">
+  <suite name="Default suite" duration-ms="59" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
     <groups>
+      <group name="regression">
+        <method signature="TestScript1_Test.script2_test()[pri:0, instance:maven_scripts.TestScript1_Test@17d0685f]" name="script2_test" class="maven_scripts.TestScript1_Test"/>
+        <method signature="TestScript2_Test.script4_test()[pri:0, instance:maven_scripts.TestScript2_Test@75881071]" name="script4_test" class="maven_scripts.TestScript2_Test"/>
+        <method signature="TestScript3_Test.script6_test()[pri:0, instance:maven_scripts.TestScript3_Test@1fc2b765]" name="script6_test" class="maven_scripts.TestScript3_Test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestScript1_Test.script1_test()[pri:0, instance:maven_scripts.TestScript1_Test@17d0685f]" name="script1_test" class="maven_scripts.TestScript1_Test"/>
+        <method signature="TestScript2_Test.script3_test()[pri:0, instance:maven_scripts.TestScript2_Test@75881071]" name="script3_test" class="maven_scripts.TestScript2_Test"/>
+        <method signature="TestScript3_Test.script5_test()[pri:0, instance:maven_scripts.TestScript3_Test@1fc2b765]" name="script5_test" class="maven_scripts.TestScript3_Test"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="38" started-at="2023-01-18T11:17:20 IST" finished-at="2023-01-18T11:17:20 IST">
+    <test name="Default test" duration-ms="59" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+      <class name="Practice_Maven.GithubScript1_Test">
+        <test-method status="PASS" signature="Script1test()[pri:0, instance:Practice_Maven.GithubScript1_Test@c81cdd1]" name="Script1test" duration-ms="1" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Script1test -->
+      </class> <!-- Practice_Maven.GithubScript1_Test -->
+      <class name="Practice_Maven.UpdateTest">
+        <test-method status="PASS" signature="delete()[pri:0, instance:Practice_Maven.UpdateTest@5891e32e]" name="delete" duration-ms="6" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="update()[pri:0, instance:Practice_Maven.UpdateTest@5891e32e]" name="update" duration-ms="2" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+      </class> <!-- Practice_Maven.UpdateTest -->
+      <class name="maven_scripts.TestScript3_Test">
+        <test-method status="PASS" signature="script5_test()[pri:0, instance:maven_scripts.TestScript3_Test@1fc2b765]" name="script5_test" duration-ms="1" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script5_test -->
+        <test-method status="PASS" signature="script6_test()[pri:0, instance:maven_scripts.TestScript3_Test@1fc2b765]" name="script6_test" duration-ms="0" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script6_test -->
+      </class> <!-- maven_scripts.TestScript3_Test -->
+      <class name="maven_scripts.TestScript2_Test">
+        <test-method status="PASS" signature="script3_test()[pri:0, instance:maven_scripts.TestScript2_Test@75881071]" name="script3_test" duration-ms="1" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script3_test -->
+        <test-method status="PASS" signature="script4_test()[pri:0, instance:maven_scripts.TestScript2_Test@75881071]" name="script4_test" duration-ms="1" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script4_test -->
+      </class> <!-- maven_scripts.TestScript2_Test -->
       <class name="Practice_Maven.CreateTest">
-        <test-method status="PASS" signature="create()[pri:0, instance:Practice_Maven.CreateTest@757942a1]" name="create" duration-ms="6" started-at="2023-01-18T11:17:20 IST" finished-at="2023-01-18T11:17:20 IST">
+        <test-method status="PASS" signature="create()[pri:0, instance:Practice_Maven.CreateTest@289d1c02]" name="create" duration-ms="1" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create -->
       </class> <!-- Practice_Maven.CreateTest -->
+      <class name="github_package.Class1_test">
+        <test-method status="PASS" signature="class1_test()[pri:0, instance:github_package.Class1_test@22eeefeb]" name="class1_test" duration-ms="0" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class1_test -->
+      </class> <!-- github_package.Class1_test -->
+      <class name="maven_scripts.TestScript1_Test">
+        <test-method status="PASS" signature="script1_test()[pri:0, instance:maven_scripts.TestScript1_Test@17d0685f]" name="script1_test" duration-ms="0" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script1_test -->
+        <test-method status="PASS" signature="script2_test()[pri:0, instance:maven_scripts.TestScript1_Test@17d0685f]" name="script2_test" duration-ms="1" started-at="2023-01-20T16:42:52 IST" finished-at="2023-01-20T16:42:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script2_test -->
+      </class> <!-- maven_scripts.TestScript1_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
