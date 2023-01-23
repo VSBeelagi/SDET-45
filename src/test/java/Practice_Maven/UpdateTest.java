@@ -6,11 +6,11 @@ public class UpdateTest {
 	
 	@Test
 	public void update(){
-		System.out.println("-- TestScript- 3");
+		System.out.println("-- update TestScript- 3");
 	}
 	
 	@Test
 	public void delete(){
-		System.out.println("-- TestScript deleted --");
+		System.out.println("-- delete TestScript deleted --");
 	}
 }
